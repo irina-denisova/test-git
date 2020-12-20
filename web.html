@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My card</title>
+    <link href="./web.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header class="header ml-content" id="header">
+        <div class="header-block-caption">
+            <h1 class="header__title decor-font">Ирина Денисова</h1>
+            <p class="header__subtitle decor-font">Начинающий frond-end разработчик</p>
+        </div>
+        <div class="header-block-image">
+            <img src="Images/photo.png" alt="Моя фотография" class="header-image" display="none">
+        </div>
+        <span class="header-block-vertical-text header-vertical-text decor-font">Irina</span>
+        <div class="header-contacts">
+            <span class="header-contacts__title">Связаться со мной</span>
+            <a href="mailto:irina.ryskova@gmail.com?subject=Сайт-визитка" 
+                title="Электронная почта"
+                class="header-contacts__email">irina.ryskova@gmail.com</a>
+            <a href="tel:+48577553579" 
+                title="Номер телефона" 
+                class="header-contacts__phone">(+48)577 553 579</a>
+        </div>
+        <ul class="header-language">
+            <li class="header-language__item">
+                <a href="" class="header-language__link">рус</a>
+            </li>
+            <li class="header-language__item">
+                <a href="" class="header-language__link">eng</a>
+            </li>
+        </ul>
+    </header>
+
+    <nav class="nav nav-size-width">
+        <a href="#header" class="nav-logo round decor-font">D</a>
+        <ul class="nav-menu">
+            <li class="nav-menu__item">
+                <a href="#about" class="nav-menu__link">Обо мне</a>
+            </li>
+            <li class="nav-menu__item">
+                <a href="#education" class="nav-menu__link">Образование</a>
+            </li>
+            <li class="nav-menu__item">
+                <a href="#expirience" class="nav-menu__link">Опыт работы</a>
+            </li>
+            <li class="nav-menu__item">
+                <a href="#hobby" class="nav-menu__link">Хобби</a>
+            </li>
+            <li class="nav-menu__item">
+                <a href="#footer" class="nav-menu__link">Контакты</a>
+            </li>
+        </ul>
+    </nav>
+    <main class="main ml-content">
+
+        <section class="section about" id="about">
+            <h2 class="section__title">Обо мне</h2> 
+            <p class="section__text">Привет, меня зовут Ирина и я прохожу обучение по направлению <strong>frond-end</strong> разработчик.</p>
+            <p class="section__text">Родилась и выросла в России &mdash; в сибирском г. Томске, но последние 4 года живу 
+                в Польше на берегу Балтийского моря в г. Гданьске.<br>
+                Начала увлекаться программированием еще в школе на уроке информатики, тогда я и
+                решила, что моя будущая профессия будет связана с ИТ.<br>
+                Люблю изучать новое и совершенстоваться, поэтому, после ~6 лет работы в ИТ компании на должности XSLT/XML 
+                разработчика, решила расширить свои знания и погрузиться в новое направление &mdash; frond-end разработку.</p>
+            <p>Обладаю умеренным перфекционизмом и оптимистическим взглядом на жизнь&#9786;</p>
+        </section>
+
+        <section class="section education" id="education">
+            <h2 class="section__title">Образование</h2>
+            <p class="section__text"><strong>2008&nbsp;-&nbsp;2013:</strong>&nbsp;Томский государственный университет систем управления и радиоэлектроники (ТУСУР)</p>
+            <p class="section__text"><strong>Специальность:</strong>&nbsp;Системы автоматизированного проектирования (САПР)</p>
+        </section>
+
+        <section class="section expirience" id="expirience">
+            <h2 class="section__title">Опыт работы</h2>
+            <ul class="section__list">
+                <li class="section__list__item">
+                    <strong>2014&nbsp;-&nbsp;июнь 2016:</strong>&nbsp;ООО &laquo;Рэндж Софт&raquo;, Томск, Россия<br>
+                            XML/XSLT/XSD разработчик</li>
+                <li class="section__list__item">
+                    <strong>июнь 2016&nbsp;-&nbsp;апр 2020:</strong>&nbsp;&laquo;RANGE SOFT&raquo; SP ZOO, Гданьск, Польша<br>
+                            XML/XSLT/XSD разработчик</li>
+            </ul>
+            <h3 class="section__subtitle">Навыки:</h3>
+            <ul class="section__list">
+                <li class="section__list__item">Языки программирования: XSLT, XSD, XML, XPath, язык запросов SQL, XQuery</li>
+                <li class="section__list__item">Системы контроля версиями: SVN, Git</li>
+                <li class="section__list__item">Приложения: Visual Studio, VS Code, Altova XMLSpy, TOAD, JIRA, RTC</li>
+                <li class="section__list__item">Знание в области финансовых диревативов, FpML стандарт, DocBook 5 стандарт</li>
+                <li class="section__list__item">Работать по системе Agile/Scrum</li>
+                <li class="section__list__item">Языки: Русский (Native), Английский (Intermediate), Польский (А2)</li>
+            </ul>
+        </section>
+        
+        <section class="section hobby" id="hobby">
+            <h2 class="section__title">Хобби</h2>
+            <ul class="section__list">
+                <li class="section__list__item">
+                    <strong>Спорт</strong> &mdash; фитнес и бег.</li>
+                <li class="section__list__item">
+                    <strong>Путешествия</strong>. Была в странах Азии и Европы. Хотелось бы еще посетить Америку и Австралию.</li>
+                <li class="section__list__item">
+                    <strong>Учиться</strong> и изучать новое, изучать языки. В планах выучить в совершенстве 
+                    английский и начать учить испанский.</li>
+                <li class="section__list__item">
+                    <strong>Читать</strong> литературу (техническую и художественную).<br>
+                    Одно из последних &mdash; Бертран Мейер «Почувствуй класс. Учимся программировать хорошо с 
+                    объектами и контрактами».<br>
+                    Также очень нравится электронный учебник по Java Script &mdash; https://learn.javascript.ru/.</li>
+            </ul>
+        </section>
+        
+        <section class="section frondend-start" id="frondend">
+            <h2 class="section__title">Обучение frond-end разработки</h2>
+            <ul class="section__list">
+                <li class="section__list__item">
+                    <strong>1 ноября:</strong>&nbsp;увидела рекламу в Вконтакте на курс frond-end разработчика</li>
+                <li class="section__list__item">
+                    <strong>2 ноября:</strong>&nbsp;записалась на курс frond-end разработчика</li>
+                <li class="section__list__item">
+                    <strong>9 ноября:</strong>&nbsp;Начало изучения HTML</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer" id="footer">
+        <ul class="footer-contacts">
+            <li class="footer-contacts__item">
+                <p><strong>Телефон:</strong><br>
+                    <a href="tel:+48577553579" title="Номер телефона" class="footer-contacts__link">(+48)577 553 579</a>
+                </p>
+            </li>
+            <li class="footer-contacts__item">
+                <p><strong>Email:</strong><br>
+                    <a href="mailto:irina.ryskova@gmail.com?subject=Сайт-визитка" 
+                        title="Электронная почта" 
+                        class="footer-contacts__link">irina.ryskova@gmail.com</a>
+                </p>
+            </li>
+            <li class="footer-contacts__item">
+                <p class="footer-contacts__link"><strong>Адрес:</strong><br>80-369, Gdańsk, Aleja Rzeczypospolitej 4D</p>
+            </li>
+        </ul>
+        <!-- social media links: VK and instagram-->
+        <div class="footer-socials">
+            <a href="https://www.linkedin.com/" target="_blank" title="ССылка на аккаунт в linkedin" class="footer-socials__item">
+                <img src="./Icons/logoIn.png" alt="Логотип linkedin" width="30"/></a>
+            <a href="https://vk.com/irina_ryskova" target="_blank" title="ССылка на аккаунт в Вконтакте" class="footer-socials__item">
+                    <img src="./Icons/logoVK.png" alt="Логотип Вконтакте" width="30"/></a>
+            <a href="https://www.instagram.com/ira.densv/?hl=ru" target="_blank" title="ССылка на аккаунт в Instagram" class="footer-socials__item">
+                <img src="./Icons/logoInstgr.png" alt="Логотип Instagram" width="30"/></a>
+            <a href="https://www.facebook.com/iryskova" target="_blank" title="ССылка на аккаунт в Facebook" class="footer-socials__item">
+                    <img src="./Icons/logoFB1.png" alt="Логотип Facebook" width="30"/></a> 
+        </div>
+        <span class="footer__subtitle decor-text">&copy;&nbsp;FirstProjectSkillFactory. 2020</span>
+    </footer>
+</body>
+</html>
